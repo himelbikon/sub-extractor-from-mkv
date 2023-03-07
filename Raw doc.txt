@@ -1,0 +1,5 @@
+01. Get subtitle id from video
+        mkvmerge -i input.mkv
+
+02. Extract subtitle from MKV
+        mkvextract tracks video.mkv <subtitle ID>:subtitle.srt
